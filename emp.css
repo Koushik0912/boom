@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(emp.jpg);
+}
+div.main{
+    text-align: center;
+    background-color: rgba(0,0, 0,0.5);
+    width: 100%;
+    font-size: 18px;
+    border-radius: 100px;
+    border: 1px solid rgba(255,255,255,0.3);
+    box-shadow: 2px 2px 15px 
+    rgba(0,0,0,0.3);
+    color: #fff;
+    
+}
+
+
+h1,h2{
+    text-align: center;
+}
+
+form {
+    max-width:40px;
+    margin: 0 auto;
+}
+
+label, input {
+    display: block;
+    margin-bottom: 10px;
+   
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#employeeList {
+    margin-top: 30px;
+}
